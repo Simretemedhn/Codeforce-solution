@@ -1,0 +1,1 @@
+operation = 0for i in range(5):    a, b, c, d, e = map(int, input().split())    if a == 1 or e == 1:        operation += 2        operation += abs(i-2)          break    elif b == 1 or d == 1:        operation += 1        operation += abs(i-2)        break    elif c == 1:        operation += abs(i-2)        breakprint(operation)
