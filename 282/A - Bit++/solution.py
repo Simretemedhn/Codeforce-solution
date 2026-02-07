@@ -1,0 +1,1 @@
+operation = int(input()) x = 0for _ in range(operation):    opera = input()    if "++" in opera:        x += 1    else:        x -= 1print(x)
