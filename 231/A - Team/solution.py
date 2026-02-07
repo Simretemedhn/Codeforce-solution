@@ -1,0 +1,1 @@
+question = int(input())count = 0 for _ in range(question):    list1 = list(map(int, input().split()))    if sum(list1) >= 2:        count += 1 print(count)
