@@ -1,0 +1,1 @@
+a, b = map(int, input().split()) year = 0while a <= b:    a *= 3    b *= 2    year += 1print(year)
