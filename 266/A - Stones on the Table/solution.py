@@ -1,0 +1,1 @@
+length = int(input())stones = list(input()) x = 0 take_away = 0for _ in range(length-1):    if stones[x] == stones[x+1]:        take_away += 1        stones.pop(x)    else:        x += 1print(take_away)
