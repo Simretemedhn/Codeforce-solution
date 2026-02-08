@@ -1,0 +1,1 @@
+number = int(input()) step = 0if number//5>=1:    step += number//5    number %= 5if  number// 4 >= 1:    step += number//4    number%= 4if number// 3 >= 1:    step += number//3    number%= 3if number// 2 >= 1:    step += number//2    number%= 2step += number print(step)
