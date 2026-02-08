@@ -1,0 +1,1 @@
+length, ind = map(int, input().split())scores = list(map(int, input().split())) limit = scores[ind-1]if limit == 0:    non_zero = 0    for x in range(ind):        if scores[x] >0:            non_zero += 1    print(non_zero)        participant = indfor i in range(ind, length):    if scores[i] != limit:        break    participant += 1if limit != 0:    print(participant)
