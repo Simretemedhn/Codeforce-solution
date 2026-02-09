@@ -1,0 +1,1 @@
+word = input()  lower = 0 upper = 0for char in word:    if char.islower():        lower += 1    else:        upper += 1if lower < upper:    word = word.upper()else:    word = word.lower()print(word)
