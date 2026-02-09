@@ -1,0 +1,1 @@
+year = input() next_year = int(year) + 1while True:    next_year_str = str(next_year)    if len(set(next_year_str)) == len(next_year_str):        print(next_year)        break    next_year += 1
