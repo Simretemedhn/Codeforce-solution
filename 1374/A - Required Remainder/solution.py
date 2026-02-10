@@ -1,0 +1,1 @@
+from math import floor test_cases = int(input()) for _ in range(test_cases):    x, y, n = map(int, input().split())    print((x*floor((n-y)/x)) + y)
