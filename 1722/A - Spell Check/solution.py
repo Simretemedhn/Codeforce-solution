@@ -1,0 +1,1 @@
+test_case = int(input())for _ in range(test_case):    length = int(input())     name = input()    if length != 5:        print("NO")    elif length == 5 and sorted(name) == sorted("Timur"):        print("YES")    else:        print("NO")
