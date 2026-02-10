@@ -1,0 +1,1 @@
+friends, fence = map(int, input().split())each_height = list(map(int, input().split())) road = 0for height in each_height:    if height <= fence:        road += 1    else:        road += 2print(road)
