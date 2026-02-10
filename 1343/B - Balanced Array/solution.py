@@ -1,0 +1,1 @@
+t = int(input())for _ in range(t):    num = int(input())    if (num//2)%2 == 0:        print("YES")        for_even = [(x*2)+ 2 for x in range(num//2)]        for_odd = [(x*2)+ 1 for x in range((num//2)-1)]        for_odd.append(sum(for_even)- sum(for_odd))        total = for_even + for_odd        print(" ".join(map(str, total)))     else:        print("NO")
