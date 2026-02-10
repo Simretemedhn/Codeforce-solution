@@ -1,0 +1,1 @@
+stop = int(input()) capacity = 0current = 0for x in range(stop-1):    exit, enter = map(int, input().split())    current = current -exit + enter     capacity = max(capacity, current)print(capacity)
