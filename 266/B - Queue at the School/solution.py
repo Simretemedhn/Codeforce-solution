@@ -1,0 +1,1 @@
+children, time = map(int, input().split())arrangement = input()x = 0list1 = [letter for letter in arrangement]for _ in range(time):    added = []    for y in range(len(arrangement)-1):        if list1[y] == "B" and list1[y+1] == "G":            added.append(y)                for x in added:        list1[x] = "G"        list1[x+1] = "B" print("".join(list1))
