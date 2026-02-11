@@ -1,0 +1,1 @@
+a, b, c, d = map(int, input().split())s = input() count = 0for each in s:    if each == "1":        count += a    elif each == "2":        count += b    elif each == "3":        count += c    else:        count += dprint(count)
