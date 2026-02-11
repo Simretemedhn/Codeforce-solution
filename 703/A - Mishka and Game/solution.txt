@@ -1,0 +1,1 @@
+roundd = int(input())mishaka_count = 0 chris_count = 0for _ in range(roundd):    mishaka, chris = map(int, input().split())    if mishaka > chris:        mishaka_count += 1    elif mishaka < chris:        chris_count += 1if mishaka_count > chris_count:    print("Mishka")elif mishaka_count < chris_count:    print("Chris")else:    print("Friendship is magic!^^")
