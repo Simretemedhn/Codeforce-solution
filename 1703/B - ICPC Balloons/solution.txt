@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    seen = set()    length = int(input())    word = input()    count = 0    for x in range(length):        if word[x] in seen:            count += 1        else:            seen.add(word[x])            count += 2    print(count)
