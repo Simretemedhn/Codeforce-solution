@@ -1,0 +1,1 @@
+num = int(input()) ratio  = map(int, input().split())formated = format(sum(ratio)/(num), ".12f")print(formated)
