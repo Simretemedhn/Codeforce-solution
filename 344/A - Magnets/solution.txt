@@ -1,0 +1,1 @@
+n = int(input()) previous = 0count = 0for _ in range(n):    magnet = int(input())    if previous == 0:        previous = magnet        count += 1    else:        if previous == magnet:            continue        else:            count += 1            previous = magnetprint(count)
