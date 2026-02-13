@@ -1,0 +1,1 @@
+s = input()content = s[1:-1]if content == "":    print(0)else:    print(len(set(content.split(", "))))
