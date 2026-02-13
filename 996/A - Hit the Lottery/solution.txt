@@ -1,0 +1,1 @@
+num = int(input()) count = 0 count += num // 100 r_100 = num%100count += r_100//20r_20 = r_100%20count += r_20//10r_10 = r_20%10count += r_10//5r_5 = r_10%5count += r_5print(count)
