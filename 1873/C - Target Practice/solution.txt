@@ -1,0 +1,1 @@
+t = int(input())  for _ in range(t):    count = 0     for row in range(10):        string = input()        for col in range(10):            if string[col] == "X":                count += min(row, col, 9-row, 9-col) + 1    print(count)
