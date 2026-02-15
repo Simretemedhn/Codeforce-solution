@@ -1,0 +1,1 @@
+line = int(input()) if line == 1:    print("I hate it") elif line%2 == 0:    output = ["I hate that I love"] * (line//2)    print(" that ".join(output) + " it")else:    output = ["I hate that I love"] * (line//2)    print(" that ".join(output) + " that I hate it")
