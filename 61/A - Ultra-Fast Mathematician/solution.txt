@@ -1,0 +1,1 @@
+num1 = input()num2 = input() new  = []for x in range(len(num1)):    if num1[x] != num2[x]:        new.append("1")    else:        new.append("0") print(str("".join(new)))
