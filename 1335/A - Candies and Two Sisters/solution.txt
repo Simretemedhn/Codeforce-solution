@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    num = int(input())    if num == 1 or num == 2:        print(0)    else:        print((num-1)//2)
