@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    num = int(input())     div  = 1    while num >= div * 10:        div *= 10     new = []    while num != 0:        if num//div:            new.append(num//div*div)        num %= div        if 0 < num < 10:            new.append(num)            break        div //= 10    print(len(new))    print(*new)
