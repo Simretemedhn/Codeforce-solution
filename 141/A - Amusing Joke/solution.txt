@@ -1,0 +1,1 @@
+from collections import defaultdict new_year = input()chrismas = input()pile = input()total = new_year + chrismascombined_word = defaultdict(int)for letter in total:    combined_word[letter] += 1 pile_map = defaultdict(int)for letter in pile:    pile_map[letter] += 1 if pile_map == combined_word:    print("YES")else:    print("NO")
