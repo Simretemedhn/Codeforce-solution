@@ -1,0 +1,1 @@
+rooms = int(input())count = 0 for _ in range(rooms):    filled, maximum = map(int, input().split())    if maximum - filled >= 2:        count += 1print(count)
