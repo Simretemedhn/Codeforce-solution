@@ -1,0 +1,1 @@
+level = int(input()) my_set = set()x = list(map(int, input().split()))levels_a = x[0]my_set.update(x[1:])y = list(map(int, input().split()))levels_b = y[0]my_set.update(y[1:])if len(my_set) == level:    print("I become the guy.")else:    print("Oh, my keyboard!")
