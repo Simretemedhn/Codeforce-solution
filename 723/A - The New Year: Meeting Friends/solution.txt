@@ -1,0 +1,1 @@
+points = list(map(int, input().split()))points.sort()median = points[1]result = abs(points[0]- median) + abs(points[1]-median) + abs(points[2]-median) print(result)
