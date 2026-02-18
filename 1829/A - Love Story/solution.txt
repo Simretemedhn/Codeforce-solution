@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    stringg = input()    count = 0    main = "codeforces"    for i in range(10):        if stringg[i] != main[i]:            count += 1    print(count)
