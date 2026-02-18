@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    new = []    stringg = input()    for i in range(len(stringg)):        if i != 0 and i%2 ==0:            continue         new.append(stringg[i])    print("".join(new))
