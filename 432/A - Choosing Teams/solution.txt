@@ -1,0 +1,1 @@
+n, k = map(int, input().split()) list1 = list(map(int, input().split()))count = 0 for digit in list1:    if 5-digit >= k:        count += 1print(count//3)
