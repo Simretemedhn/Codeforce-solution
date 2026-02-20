@@ -1,0 +1,1 @@
+n = int(input())contests = list(map(int, input().split())) contests.sort() days = 0for problems in contests:    if problems >= days + 1:        days += 1 print(days)
