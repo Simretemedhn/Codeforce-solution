@@ -1,0 +1,1 @@
+price, cent = map(int, input().split())  i = 1while True:    pricee = price * i    if pricee % 10 == cent or pricee % 10 == 0:        break    i += 1print(i)
