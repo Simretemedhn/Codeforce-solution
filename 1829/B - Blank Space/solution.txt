@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    n = int(input())    list1 = list(map(int, input().split()))        count = 0    maxx = 0    for i in range(n):        if list1[i] == 0:            count += 1        else:            maxx = max(maxx, count)            count = 0    maxx = max(maxx, count)    print(maxx)
