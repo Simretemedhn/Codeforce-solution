@@ -1,0 +1,1 @@
+n = int(input())s = input().strip() count = 0x_count = 0 for ch in s:    if ch == 'x':        x_count += 1        if x_count >= 3:            count += 1    else:        x_count = 0 print(count)
