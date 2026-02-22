@@ -1,0 +1,1 @@
+n = int(input())grid = [input().strip() for _ in range(n)] total_pairs = 0 # Rowsfor i in range(n):    cnt = grid[i].count('C')    total_pairs += cnt * (cnt - 1) // 2 # Columnsfor j in range(n):    cnt = sum(1 for i in range(n) if grid[i][j] == 'C')    total_pairs += cnt * (cnt - 1) // 2 print(total_pairs)
