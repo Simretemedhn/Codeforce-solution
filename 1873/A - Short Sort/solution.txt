@@ -1,0 +1,1 @@
+t = int(input()) possible = {"abc", "acb", "bac", "cba"} for _ in range(t):    s = input()    print("YES" if s in possible else "NO")
