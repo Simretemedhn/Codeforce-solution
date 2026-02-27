@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    n = int(input())    nums= len(set(map(int, input().split())))    if nums ==n:        print("YES")    else:        print("NO")
