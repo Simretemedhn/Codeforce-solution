@@ -1,0 +1,1 @@
+squares = int(input()) level = 0height = 0  while True:    if (level + 1) * (level + 2)//2 <= squares:        level += 1        needed = level* (level + 1)// 2        height += 1        squares -= needed    else:        break  print(height)
