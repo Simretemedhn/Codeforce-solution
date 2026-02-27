@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    hour, minute = map(int, input().split())    print((24 - hour) * 60 - minute)
