@@ -1,0 +1,1 @@
+from collections import defaultdict  t = int(input()) for _ in range(t):  n, k = map(int, input().split())     cells = input()  freq = defaultdict(int)        for i in range(k):    freq[cells[i]] += 1  min_ = freq["W"]    left = 0  for right in range(k, n):        freq[cells[left]] -= 1     freq[cells[right]] += 1     min_ = min(min_, freq["W"])    left += 1  print(min_)
