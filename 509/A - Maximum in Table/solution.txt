@@ -1,0 +1,1 @@
+n = int(input()) ini = [1] * nfor _ in range(n-1):  new = [0] * n  new[0] +=  1     for i in range(1, n):    new[i] = new[i-1] + ini[i]    ini = new if n == 1:  print(1)else:  print(new[-1])
