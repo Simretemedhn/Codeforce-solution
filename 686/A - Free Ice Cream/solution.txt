@@ -1,0 +1,1 @@
+n, x = map(int, input().split())  count = 0for _ in range(n):  sign, amount = input().split()  amount = int(amount)  if sign == "+":    x += amount  elif sign == "-":    if amount <= x:      x -= amount    else:      count += 1 print(x, count)
