@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):  row, col = map(int, input().split())    if row*col %2 == 0 :    print (row*col//2)  else:    print(row*col//2 + 1)
