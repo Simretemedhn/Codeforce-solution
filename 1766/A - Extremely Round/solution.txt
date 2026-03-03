@@ -1,0 +1,1 @@
+t = int(input())  for _ in range(t):  num = int(input())    div =  1   res = 0     while num >= div*10:    res += 9    div *= 10     res += num//div   print(res)
