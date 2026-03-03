@@ -1,0 +1,1 @@
+n = int(input()) for _ in range(n):    num = input().strip()     if len(num) < 3 or num[:2] != "10" or num[2] == "0":        print("NO")    else:        exponent = int(num[2:])        if exponent >= 2:            print("YES")        else:            print("NO")
