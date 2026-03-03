@@ -1,0 +1,43 @@
+n, k, q = map(int, input().split())
+
+
+new = []
+for _ in range(n):
+    l, r = map(int, input().split())
+    new.append(l)
+    new.append(r)
+ 
+min_ = min(new)
+max_ = max(new)
+ 
+size = max_ - min_ + 3 
+diff = [0] * size
+ 
+# Build difference array
+for i in range(0, len(new), 2):
+    l = new[i]
+    r = new[i + 1]
+    diff[l - min_] += 1
+    diff[r + 1 - min_] -= 1
+ 
+for i in range(1, size):
+    diff[i] += diff[i - 1]
+ 
+ 
+admissible = [0] * size
+for i in range(size):
+    if diff[i] >= k:
+        admissible[i] = 1
+ 
+for i in range(1, size):
+    admissible[i] += admissible[i - 1]
+ 
+for _ in range(q):
+    a, b = map(int, input().split())
+    if b < min_ or a > max_:
+        print(0)
+        continue
+    a = max(a, min_)
+    b = min(b, max_)
+    res = admissible[b - min_] - (admissible[a - 1 - min_] if a > min_ else 0)
+    print(res)
