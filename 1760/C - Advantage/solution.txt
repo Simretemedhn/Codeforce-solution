@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):  n = int(input())  nums = list(map(int, input().split()))  Sorted = sorted(nums)  output = []  for i in range(n):    if nums[i] == Sorted[-1]:      diff = nums[i] - Sorted[-2]    else:      diff = nums[i] - Sorted[-1]    output.append(diff)    print(*output)
