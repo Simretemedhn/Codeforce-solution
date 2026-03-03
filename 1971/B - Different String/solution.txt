@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):    word = input()    if len(set(word)) == 1:        print("NO")    else:        rearranged = word[1:] + word[0]        print("YES")        print(rearranged)
