@@ -1,0 +1,1 @@
+hand = input()table = set(input()) found = False  for i in range(2):  if hand[i] in table:    found = True  if found:  print("YES")else:  print("NO")
