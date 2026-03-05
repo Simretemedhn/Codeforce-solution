@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):  m, a, b, c = map(int, input().split())    count = 0  upper = min(m, a)  count += upper   lower = min(m, b)  count += lower    total_left = 2 * m - (upper + lower)  count += min(total_left, c)    print(count)
