@@ -1,0 +1,1 @@
+t = int(input())  for _ in range(t):  a, b, total = map(int, input().split())        count = 0   while a <= total and b <= total:    count += 1     if a>b:      b += a          else:      a += b   print(count)
