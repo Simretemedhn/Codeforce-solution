@@ -1,0 +1,1 @@
+t = int(input())  for _ in range(t):  a, b, c = map(int, input().split())    level_1 = abs(a-1)  level_2 = abs(b-c) + abs(c-1)    if level_1 < level_2:    print(1)  elif level_2 < level_1:    print(2)  else:    print(3)
