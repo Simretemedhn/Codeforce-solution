@@ -1,0 +1,1 @@
+t = int(input())  for _ in range(t):  w, h, n = map(int, input().split())   power_w = 0  power_h = 0    while w%2 == 0:    power_w += 1     w //= 2   while h%2 == 0:    power_h += 1     h //= 2      total_pow = power_h + power_w   if (2 ** total_pow) >= n:    print("YES")  else:    print("NO")
