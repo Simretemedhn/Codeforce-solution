@@ -1,0 +1,1 @@
+from collections import Counter t = int(input()) for _ in range(t):  n, m = map(int, input().split())  valid = ['A', 'B', 'C', 'D', 'E', 'F','G']  count = 0   level = input()  level_map = Counter(level)    for char in valid:    if char in level_map and m > level_map[char]:      count += (m - level_map[char])     elif char not in level_map:      count += m    print(count)
