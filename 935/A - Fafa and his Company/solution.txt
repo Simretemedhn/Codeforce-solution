@@ -1,0 +1,1 @@
+n = int(input()) leader = 1  start = 2while start < n:  if n%start == 0:    leader += 1   start += 1 print(leader)
