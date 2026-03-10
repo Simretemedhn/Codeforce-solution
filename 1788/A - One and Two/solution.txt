@@ -1,0 +1,1 @@
+from collections import Countert = int(input()) for _ in range(t):  n = int(input())  nums = list(map(int, input().split()))  nums_map = Counter(nums)  count_2 = 0  total_2 = nums_map[2]  if total_2 % 2 == 1:    print(-1)    continue   for i in range(n):    if nums[i] == 2:      count_2 += 1       total_2 -= 1     if total_2 == count_2:      print(i+1)      break
