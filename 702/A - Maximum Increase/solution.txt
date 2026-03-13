@@ -1,0 +1,1 @@
+n = int(input())nums = list(map(int, input().split())) stack = []max_ = 1 for num in nums:    if not stack or num > stack[-1]:        stack.append(num)    else:        max_ = max(max_, len(stack))        stack = [num]  max_ = max(max_, len(stack))print(max_)
