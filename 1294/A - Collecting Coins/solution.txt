@@ -1,0 +1,1 @@
+t= int(input()) for _ in range(t):  a, b, c, n = map(int, input().split())  sum_ = a + b + c + n  tar = sum_//3  if sum_ % 3 == 0 and tar >= max(a, b, c):    print("YES")   else:    print("NO")
