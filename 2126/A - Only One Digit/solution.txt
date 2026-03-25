@@ -1,0 +1,1 @@
+t = int(input()) for _ in range(t):  given = input()  digits = [int(char) for char in given]  print(min(digits))
