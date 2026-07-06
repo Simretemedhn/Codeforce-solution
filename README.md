@@ -6,42 +6,21 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 4 |
+| 1 | 1 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [dfs and similar](#dfs-and-similar) (1)
-- [dsu](#dsu) (1)
-- [graphs](#graphs) (1)
-- [greedy](#greedy) (1)
+- [Uncategorized](#uncategorized) (1)
 
 ---
 
-### dfs and similar
+### Uncategorized
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2060E | [Graph Composition](https://codeforces.com/contest/2060/problem/E) | 1500 | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2060/E%20-%20Graph%20Composition/solution.txt) |
-
-### dsu
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2060E | [Graph Composition](https://codeforces.com/contest/2060/problem/E) | 1500 | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2060/E%20-%20Graph%20Composition/solution.txt) |
-
-### graphs
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2060E | [Graph Composition](https://codeforces.com/contest/2060/problem/E) | 1500 | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2060/E%20-%20Graph%20Composition/solution.txt) |
-
-### greedy
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2060E | [Graph Composition](https://codeforces.com/contest/2060/problem/E) | 1500 | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2060/E%20-%20Graph%20Composition/solution.txt) |
+| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2242/A%20-%20Bigrams/solution.txt) |
 
 ---
 
