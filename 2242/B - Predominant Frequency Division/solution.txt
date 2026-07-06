@@ -1,0 +1,54 @@
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    a = list(map(int, input().split()))
+    
+    # Prefix sums
+    pref1 = [0] * n
+    pref2 = [0] * n
+    pref3 = [0] * n
+    
+    for i in range(n):
+        pref1[i] = (pref1[i-1] if i > 0 else 0) + (1 if a[i] == 1 else 0)
+        pref2[i] = (pref2[i-1] if i > 0 else 0) + (1 if a[i] == 2 else 0)
+        pref3[i] = (pref3[i-1] if i > 0 else 0) + (1 if a[i] == 3 else 0)
+    
+    def get_count(L, R, type):
+        """Get count of 'type' (1, 2, or 3) in range [L, R]"""
+        if L > R:
+            return 0
+        if type == 1:
+            return pref1[R] - (pref1[L-1] if L > 0 else 0)
+        elif type == 2:
+            return pref2[R] - (pref2[L-1] if L > 0 else 0)
+        else:
+            return pref3[R] - (pref3[L-1] if L > 0 else 0)
+    
+    possible = False
+    
+    # Try all possible left ends
+    for l in range(0, n - 2):  # Need at least 2 elements for middle and right
+        # Check left part [0, l]
+        ones_l = get_count(0, l, 1)
+        twos_l = get_count(0, l, 2)
+        threes_l = get_count(0, l, 3)
+        
+        if ones_l < twos_l + threes_l:
+            continue
+        
+        # Try all possible middle ends
+        for r in range(l + 1, n - 1):  # Need at least 1 element for right
+            # Check middle part [l+1, r]
+            ones_m = get_count(l + 1, r, 1)
+            twos_m = get_count(l + 1, r, 2)
+            threes_m = get_count(l + 1, r, 3)
+            
+            if ones_m + twos_m >= threes_m:
+                possible = True
+                break
+        
+        if possible:
+            break
+    
+    print("YES" if possible else "NO")
