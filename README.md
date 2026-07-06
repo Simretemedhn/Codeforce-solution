@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 2 | 1 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (1)
+- [Uncategorized](#uncategorized) (2)
 
 ---
 
@@ -21,6 +21,7 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2242/A%20-%20Bigrams/solution.txt) |
+| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.txt) |
 
 ---
 
