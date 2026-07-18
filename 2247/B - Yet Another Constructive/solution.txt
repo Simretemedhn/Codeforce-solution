@@ -1,0 +1,15 @@
+t = int(input())
+ 
+for _ in range(t):
+    n, k, m = map(int, input().split())
+    if k > m:
+        print("NO")
+    else:
+        result = m // k 
+        remainder = m % k 
+        one_elem = result + remainder 
+ 
+        final = [one_elem]
+        final.extend([result] * (n-1))
+        print("YES")
+        print(*final)
