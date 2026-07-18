@@ -1,0 +1,25 @@
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    list1 = list(map(int, input().split()))
+    count_1 = 0
+    count_minus_1 = 0
+ 
+    for num in list1:
+        if num == 1:
+            count_1 += 1
+        else:
+            count_minus_1 += 1 
+    if count_1 > count_minus_1:
+        count_1 -= count_minus_1
+        if count_1 % 4 == 0:
+            print("YES")
+        else:
+            print("NO")
+    else:
+        count_minus_1 -= count_1
+        if count_minus_1% 4 == 0:
+            print("YES")
+        else:
+            print("NO")
