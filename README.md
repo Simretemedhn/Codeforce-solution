@@ -6,13 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 6 | 1 |
+| 7 | 1 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (6)
+- [Uncategorized](#uncategorized) (7)
 
 ---
 
@@ -26,6 +26,7 @@
 | 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.txt) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.txt) |
 | 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/A%20-%20Riptide/solution.txt) |
+| 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/B%20-%20Evanescent/solution.txt) |
 
 ---
 
