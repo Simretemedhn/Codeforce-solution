@@ -6,28 +6,26 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 2 |
+| 6 | 1 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [greedy](#greedy) (1)
-- [math](#math) (1)
+- [Uncategorized](#uncategorized) (6)
 
 ---
 
-### greedy
+### Uncategorized
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2242/A%20-%20Bigrams/solution.txt) |
+| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.txt) |
+| 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.txt) |
+| 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.txt) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.txt) |
-
-### math
-
-| # | Problem | Difficulty | Solution |
-|---|---------|------------|----------|
-| 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.txt) |
+| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/A%20-%20Riptide/solution.txt) |
 
 ---
 
