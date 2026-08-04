@@ -1,0 +1,26 @@
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    word = list(input())
+ 
+    count = 1
+    for i in range(1, len(word)):
+        if word[i] != word[i - 1]:
+            count += 1
+ 
+    max_reduction = 0
+ 
+    for j in range(1, len(word) - 1):
+        if word[j - 1] == word[j + 1]:
+            if word[j] != word[j - 1]:
+                max_reduction = max(max_reduction, 2) 
+            else:
+                max_reduction = max(max_reduction, 0) 
+        else:
+            if word[j] != word[j - 1] and word[j] != word[j + 1]:
+                max_reduction = max(max_reduction, 1)  
+            elif word[j] == word[j - 1] or word[j] == word[j + 1]:
+                max_reduction = max(max_reduction, 0) 
+ 
+    print(count - max_reduction)
