@@ -1,0 +1,69 @@
+from collections import defaultdict 
+t = int(input())
+ 
+for _ in range(t):
+    n = int(input())
+    lists = list(map(int, input().split()))
+ 
+    if 0 not in lists:
+        print(-1)
+        continue 
+ 
+    sum_to_indice = defaultdict(list)
+    for i, num in enumerate(lists):
+        sum_to_indice[num].append(i)
+ 
+    unique_sums = sorted(sum_to_indice.keys())
+    
+    if unique_sums[0] != 0:
+        print(-1)
+        continue
+ 
+    possible = True 
+    final = [0] * n
+    
+    for i in range(1, len(unique_sums)):
+        prev_sum = unique_sums[i - 1]
+        curr_s = unique_sums[i]
+        indices = sum_to_indice[prev_sum]
+        
+        diff = curr_s - prev_sum
+        count_prev = len(indices)
+        
+        # Check divisibility and positivity
+        if diff <= 0 or diff % count_prev != 0:
+            possible = False
+            break
+            
+        val = diff // count_prev
+        
+        # Ensure values are strictly increasing across groups
+        if i > 1:
+            prev_val = final[sum_to_indice[unique_sums[i - 2]][0]]
+            if val <= prev_val:
+                possible = False
+                break
+                
+        for idx in indices:
+            final[idx] = val
+ 
+    # Fill the largest shadow group (the last group)
+    if possible:
+        last_sum = unique_sums[-1]
+        last_indices = sum_to_indice[last_sum]
+        
+        if len(unique_sums) == 1:
+            # Only one unique sum (0) -> minimal positive integer is 1
+            last_val = 1
+        else:
+            # Must be strictly greater than the second-to-last group's value
+            prev_val = final[sum_to_indice[unique_sums[-2]][0]]
+            last_val = prev_val + 1
+            
+        for idx in last_indices:
+            final[idx] = last_val
+ 
+    if possible:
+        print(*final)
+    else:
+        print(-1)
