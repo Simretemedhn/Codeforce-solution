@@ -6,28 +6,49 @@
 
 | Total Problems | Topics |
 |---|---|
-| 8 | 1 |
+| 2 | 5 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [Uncategorized](#uncategorized) (8)
+- [greedy](#greedy) (1)
+- [implementation](#implementation) (1)
+- [math](#math) (1)
+- [strings](#strings) (1)
+- [two pointers](#two-pointers) (1)
 
 ---
 
-### Uncategorized
+### greedy
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 2242A | [Bigrams](https://codeforces.com/contest/2242/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2242/A%20-%20Bigrams/solution.txt) |
-| 2242B | [Predominant Frequency Division](https://codeforces.com/contest/2242/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2242/B%20-%20Predominant%20Frequency%20Division/solution.txt) |
-| 2247A | [Zero Sum](https://codeforces.com/contest/2247/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/A%20-%20Zero%20Sum/solution.txt) |
-| 2247B | [Yet Another Constructive](https://codeforces.com/contest/2247/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/B%20-%20Yet%20Another%20Constructive/solution.txt) |
 | 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.txt) |
-| 2254A | [Riptide](https://codeforces.com/contest/2254/problem/A) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/A%20-%20Riptide/solution.txt) |
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
 | 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/B%20-%20Evanescent/solution.txt) |
-| 2254D | [Silhouette](https://codeforces.com/contest/2254/problem/D) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/D%20-%20Silhouette/solution.txt) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2247C | [Inversion of a Subsequence](https://codeforces.com/contest/2247/problem/C) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2247/C%20-%20Inversion%20of%20a%20Subsequence/solution.txt) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/B%20-%20Evanescent/solution.txt) |
+
+### two pointers
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2254B | [Evanescent](https://codeforces.com/contest/2254/problem/B) | Unrated | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/2254/B%20-%20Evanescent/solution.txt) |
 
 ---
 
