@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 5 |
+| 3 | 6 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [binary search](#binary-search) (1)
 - [greedy](#greedy) (1)
 - [implementation](#implementation) (1)
 - [math](#math) (1)
@@ -19,6 +20,12 @@
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### binary search
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 780B | [The Meeting Place Cannot Be Changed](https://codeforces.com/contest/780/problem/B) | 1600 | [PyPy 3-64](https://github.com/Simretemedhn/Codeforce-solution/blob/HEAD/780/B%20-%20The%20Meeting%20Place%20Cannot%20Be%20Changed/solution.txt) |
 
 ### greedy
 
