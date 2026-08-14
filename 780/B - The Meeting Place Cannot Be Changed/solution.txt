@@ -1,0 +1,30 @@
+n = int(input())
+positions = list(map(int, input().split()))
+speeds = list(map(int, input().split()))
+ 
+def can_meet_in_time(T):
+    # Find the intersection of all reachable intervals
+    left_bound = -float('inf')
+    right_bound = float('inf')
+    
+    for i in range(n):
+        # Friend i can reach: [pos - speed*T, pos + speed*T]
+        left_bound = max(left_bound, positions[i] - speeds[i] * T)
+        right_bound = min(right_bound, positions[i] + speeds[i] * T)
+        
+        if left_bound > right_bound:
+            return False
+    return True
+ 
+# Binary search on time
+low = 0.0
+high = 1e18  # Some large upper bound
+ 
+for _ in range(100):  # 100 iterations for high precision
+    mid = (low + high) / 2
+    if can_meet_in_time(mid):
+        high = mid
+    else:
+        low = mid
+ 
+print(f"{high:.12f}")
